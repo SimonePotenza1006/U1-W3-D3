@@ -25,4 +25,5 @@ taskForm.addEventListener('submit', function (e) {
         })
     })
     taskInputField.value =""
+
 })
