@@ -26,4 +26,13 @@ taskForm.addEventListener('submit', function (e) {
     })
     taskInputField.value =""
 
+    let taskDone = document.querySelectorAll("p")
+    taskDone.forEach((el) =>{
+        el.addEventListener("click", function(e) {
+            let taskClicked = e.target
+            console.log(taskClicked)
+        })
+
+    })
+
 })
